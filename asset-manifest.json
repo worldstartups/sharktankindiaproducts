@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sharktankindiaproducts/static/css/main.03b9a8d0.css",
-    "main.js": "/sharktankindiaproducts/static/js/main.96d07c2d.js",
+    "main.js": "/sharktankindiaproducts/static/js/main.521736d8.js",
     "index.html": "/sharktankindiaproducts/index.html",
     "main.03b9a8d0.css.map": "/sharktankindiaproducts/static/css/main.03b9a8d0.css.map",
-    "main.96d07c2d.js.map": "/sharktankindiaproducts/static/js/main.96d07c2d.js.map"
+    "main.521736d8.js.map": "/sharktankindiaproducts/static/js/main.521736d8.js.map"
   },
   "entrypoints": [
     "static/css/main.03b9a8d0.css",
-    "static/js/main.96d07c2d.js"
+    "static/js/main.521736d8.js"
   ]
 }
