@@ -2,7 +2,7 @@
   "name": "sharktankindiaproducts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/worldstartups/sharktankindiaproducts/",
+ "homepage": "https://worldstartups.github.io/sharktankindiaproducts/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
