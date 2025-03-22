@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import SeasonProducts from "./pages/SeasonProducts";
+import CategoryProducts from "./pages/CategoryProducts";  // Import the CategoryProducts component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        {/* Route for Season Products */}
+        <Route path="/season/:seasonId" element={<SeasonProducts />} />
+        
+        {/* Route for Category Products */}
+        <Route path="/categories/:category" element={<CategoryProducts />} />
+        {/* Other routes can go here */}
+      </Routes>
+    </Router>
   );
 }
 

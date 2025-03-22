@@ -1,0 +1,130 @@
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Seasons Dropdown */
+  .seasons-dropdown {
+    position: relative;
+    display: inline-block; /* Keeps it in line with other nav links */
+  }
+  
+  .seasons-dropdown .dropdown-content {
+    position: absolute;
+    top: 100%; /* Ensures it appears just below the text */
+    left: 0;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    min-width: 150px;
+    padding: 5px 0;
+    z-index: 1000;
+  }
+  
+  .seasons-dropdown:hover .dropdown-content {
+    display: block; /* Show when hovering over Seasons */
+  }
+  
+  .seasons-dropdown .dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 16px;
+  }
+  
+  .seasons-dropdown .dropdown-content a:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Categories Dropdown (Added) */
+  .categories-dropdown {
+    position: relative;
+    display: inline-block; /* Keeps it in line with other nav links */
+  }
+  
+  .categories-dropdown .dropdown-content {
+    position: absolute;
+    top: 100%; /* Ensures it appears just below the text */
+    left: 0;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    min-width: 150px;
+    padding: 5px 0;
+    z-index: 1000;
+  }
+  
+  .categories-dropdown:hover .dropdown-content {
+    display: block; /* Show when hovering over Categories */
+  }
+  
+  .categories-dropdown .dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 16px;
+  }
+  
+  .categories-dropdown .dropdown-content a:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e1e1e;
+  }
+  
+  /* Navigation Links */
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    color: #0073e6;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    color: #666;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  /* Header Icons */
+  .header-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
