@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 import SeasonProducts from "./pages/SeasonProducts";
 import CategoryProducts from "./pages/CategoryProducts";  // Import the CategoryProducts component
@@ -8,6 +9,9 @@ function App() {
     <Router>
       <Header />
       <Routes>
+        {/* Route for Home Page */}
+        <Route path="/" element={<HomePage />} />
+
         {/* Route for Season Products */}
         <Route path="/season/:seasonId" element={<SeasonProducts />} />
         
