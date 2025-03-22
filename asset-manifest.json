@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/worldstartups/sharktankindiaproducts/static/css/main.03b9a8d0.css",
-    "main.js": "/worldstartups/sharktankindiaproducts/static/js/main.96d07c2d.js",
-    "index.html": "/worldstartups/sharktankindiaproducts/index.html",
-    "main.03b9a8d0.css.map": "/worldstartups/sharktankindiaproducts/static/css/main.03b9a8d0.css.map",
-    "main.96d07c2d.js.map": "/worldstartups/sharktankindiaproducts/static/js/main.96d07c2d.js.map"
+    "main.css": "/sharktankindiaproducts/static/css/main.7a5d2430.css",
+    "main.js": "/sharktankindiaproducts/static/js/main.a4874f30.js",
+    "index.html": "/sharktankindiaproducts/index.html",
+    "main.7a5d2430.css.map": "/sharktankindiaproducts/static/css/main.7a5d2430.css.map",
+    "main.a4874f30.js.map": "/sharktankindiaproducts/static/js/main.a4874f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.03b9a8d0.css",
-    "static/js/main.96d07c2d.js"
+    "static/css/main.7a5d2430.css",
+    "static/js/main.a4874f30.js"
   ]
 }
