@@ -1,6 +1,6 @@
-// src/pages/HomePage.js
-import React from 'react';
+import React from "react";
 
+// HomePage.js will show just the content for the homepage
 function HomePage() {
   return (
     <div>
